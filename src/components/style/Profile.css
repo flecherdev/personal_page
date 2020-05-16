@@ -1,0 +1,91 @@
+.Profile {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    height: 480px;
+}
+
+/* Header the profile */
+.Profile__header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0.5rem 0;
+    height: 80px;
+    background: orange;
+    color: #F4F4F7;
+    text-align: center;
+}
+
+.Profile__header img {
+    opacity: 0.7;
+    padding-left: 20px;
+    width: 18%;
+    align-self: center;
+    justify-self: left;
+}
+
+.Profile__header p {
+    justify-content: right;
+    padding-right: 20px;
+    font-size: 26px;
+    align-self: center;
+    justify-self: right;
+}
+
+/* Name the profile */
+.Profile__section-name {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Info the profile */
+.Profile__section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    background: #F4F4F7;
+}
+
+.Profile__section-info .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile__section-info .conteiner a{
+    text-decoration: none;
+    color: #98CA3F;
+}
+
+.Profile__section-info .conteiner .twit {
+    vertical-align: middle;
+    width: 10%;
+}
+  
+.Profile__avatar {
+    justify-items: center;
+    margin-top: 15px;
+    box-shadow: 2px 2px 10px #666;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    margin-right: 1rem;
+    border-color: #D6D6D5;
+    width: 25%;
+    height: 25%;
+}
+  
+.Profile__footer {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #98CA3F;
+    font-weight: bold;
+    font-style: italic;
+}

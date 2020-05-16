@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Badge from './components/Badge'
+import Profile from './components/Profile'
 
 const container = document.getElementById('app');
 
@@ -15,5 +15,5 @@ const container = document.getElementById('app');
 
 
 // al render se le tiene que agregar el componente cerrado < />
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Profile/>, container);
 
