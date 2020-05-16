@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import Badge from './components/Badge'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const container = document.getElementById('app');
+
+// jsx
+// const element = <h1>Hola, Ezequiel</h1>;
+
+//  const name = 'Ezequiel'
+// const element = React.createElement('h1', {}, `Hola, ${name}`)
+// en jsx 
+// const element = <h1>Hola, {name}</h1>;
+
+
+// al render se le tiene que agregar el componente cerrado < />
+ReactDOM.render(<Badge/>, container);
+
