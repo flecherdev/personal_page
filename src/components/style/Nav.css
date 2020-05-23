@@ -1,0 +1,41 @@
+.Nav {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: orange;
+  
+}
+
+.Nav_contairner {
+
+}
+
+
+.Nav__brand {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.Nav__brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.Nav__brand-logo {
+  margin: 5px;
+  margin-right: 0.5rem;
+  width: 53px;
+}
+
+.Nav__brand span {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.Nav__brand span:hover {
+  color: #d54d00;
+  
+  /* text-shadow: -1px 1px 0 #dc8d00, -3px 3px 0 #0a0e27; */
+}

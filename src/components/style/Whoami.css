@@ -1,0 +1,23 @@
+.Whoami .text{
+    font-size: 30px;
+}
+
+.Whoami .text span {
+    font-weight: bold;
+    margin: 5px;
+}
+
+@media screen and (max-width: 950px) { /* si el ancho maximo es menos a tablet*/
+    .Whoami .text{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 768px) { /* si el ancho maximo es menos a tablet*/
+    .Whoami .text{
+        font-size: 16px;
+        text-align:left;
+        margin: 3px;
+    }
+}
