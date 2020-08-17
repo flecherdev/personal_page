@@ -1,0 +1,15 @@
+.Projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px 20px;
+}
+
+.Projects__Card {
+    width: 100%;
+}
+
+@media(min-width: 576px){
+    .Projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
