@@ -16,7 +16,7 @@ class Nav extends React.Component {
                         />
                         <span>Home</span>
                         <span>/</span>
-                        <span>Proyects</span>
+                        <span>Projects</span>
                     </a>
                 </div>
             </div>
