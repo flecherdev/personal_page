@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Nav';
+import ProjectList from '../components/ProjectList';
 import '../components/style/Projects.css'
 
 // https://fir-crud-b03d8.web.app/cars
@@ -32,23 +33,7 @@ class Projects extends React.Component {
         return (
             <div>
                 <Nav />
-                <div className="Projects">
-                    {this.state.data.map((project) => {
-                        return(
-                            <div className="Projects__Card card" >
-                                <img src={project.image} className="card-img-top" alt=""/>
-                                <div class="card-body">
-                                    <h5 className="card-title">{project.title}</h5>
-                                    <p className="card-text">{project.description}</p>
-                                    <div class="card-footer">
-                                        <a href="#" className="btn btn-primary">Code github</a>
-                                    </div>
-                                </div>
-                            </div>
-                        )
-                    })}
-                    
-                </div>
+                <ProjectList project={this.state.data}/>
             </div>
         )
     }

@@ -2,10 +2,27 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px 20px;
+    margin: 23px;
 }
 
 .Projects__Card {
+    background-color: rgb(238, 238, 238);
     width: 100%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.Projects__Card__Image img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.Projects__Card__Footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
 }
 
 @media(min-width: 576px){
