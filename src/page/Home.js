@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/Nav';
+
 import Profile from '../components/Profile';
 import Whoami from '../components/Whoami';
 import ContactForm from '../components/ContactForm';
@@ -25,8 +25,8 @@ class Home extends React.Component {
 
     render(){
         return(
-            <div>
-                <Nav />
+            <React.Fragment>
+        
 
                 <div className="container">
                     <div className="row">
@@ -50,7 +50,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }

@@ -6,6 +6,7 @@ import twitter from '../img/twitter.png';
 import github from '../img/github.png';
 
 import './style/Profile.css'
+import { Link } from 'react-router-dom';
 
 
 class Profile extends React.Component {
@@ -35,21 +36,21 @@ class Profile extends React.Component {
                             <img className="twit" 
                                 src={twitter}
                                 href="https://twitter.com/flecherdev"
-                            /> <a href="https://twitter.com/flecherdev">@{this.props.twitter}</a> 
+                            /> <Link to="https://twitter.com/flecherdev">@{this.props.twitter}</Link> 
                         </div>
 
                         <div>
                             <img className="twit" 
                                 src={linkedin}
                                 href="https://www.linkedin.com/in/ezequiel-alejandro-freire-6a061152/"
-                            /> <a href="https://www.linkedin.com/in/ezequiel-alejandro-freire-6a061152/">@{this.props.linkedin}</a> 
+                            /> <Link to="https://www.linkedin.com/in/ezequiel-alejandro-freire-6a061152/">@{this.props.linkedin}</Link> 
                         </div>
 
                         <div>
                             <img className="twit" 
                                 src={github}
                                 href="https://github.com/flecherdev"
-                            /> <a href="https://github.com/flecherdev">@{this.props.github}</a> 
+                            /> <Link to="https://github.com/flecherdev">@{this.props.github}</Link> 
                         </div>
                     </div>
                 </div>

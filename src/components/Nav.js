@@ -10,19 +10,19 @@ class Nav extends React.Component {
         return( 
             <div className="Nav">
                 <div className="container-fluid">
-                    <a className="Nav__brand" href="">
+                    <div className="Nav__brand" href="">
                         <img 
                             className="Nav__brand-logo" 
                             src={logo}
                         />
                         <span>
-                            <Link to="/">Home</Link>
+                            <Link id="RouterNavLink" to="/">Home</Link>
                         </span>
                         <span>/</span>
                         <span>
-                            <Link to="/projects">Projects</Link>
+                            <Link id="RouterNavLink" to="/projects">Projects</Link>
                         </span>
-                    </a>
+                    </div>
                 </div>
             </div>
         )

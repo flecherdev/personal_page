@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import Projects from '../page/Projects';
 
 class ProjectList extends React.Component {
     render() {
@@ -10,14 +12,15 @@ class ProjectList extends React.Component {
                             <div className="Projects__Card__Image">
                                 <img src={project.image} className="card-img-top" alt=""/>
                             </div>
-                            <div class="container card-body">
+                            <div className="container card-body">
                                 <h5 className="card-title">
                                     <span className="font-weight-bold">{project.title}</span>
                                 </h5>
                                 <p className="card-text">{project.description}</p>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" className="btn btn-primary">Code github</a>
+                            <div className="card-footer">
+                                <a href={project.github} className="Projects__Card__Fotter__Button btn btn-warning ">Code</a>
+                                <a href={project.link} className="Projects__Card__Fotter__Button btn btn-warning ">Link</a>
                             </div>
                         </div>
                     )

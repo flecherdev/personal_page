@@ -17,6 +17,21 @@
     border-radius: 9px;
 }
 
+.Projects__Card__Fotter__Button {
+    background-color: orange;
+    border: 5px solid #dee2e6;
+    border-radius: 5rem;
+    border-color: #dee2e6;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    margin: 5px;
+}
+.Projects__Card__Fotter__Button:hover {
+    color: #d54d00;
+}
+
 .Projects__Card__Footer {
     position: relative;
     margin-top: -150px; /* negative value of footer height */
