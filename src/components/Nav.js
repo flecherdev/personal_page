@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../img/icon_invader_violet.png';
 
 import './style/Nav.css';
+import { Link } from 'react-router-dom';
 
 
 class Nav extends React.Component {
@@ -14,9 +15,13 @@ class Nav extends React.Component {
                             className="Nav__brand-logo" 
                             src={logo}
                         />
-                        <span>Home</span>
+                        <span>
+                            <Link to="/">Home</Link>
+                        </span>
                         <span>/</span>
-                        <span>Projects</span>
+                        <span>
+                            <Link to="/projects">Projects</Link>
+                        </span>
                     </a>
                 </div>
             </div>
