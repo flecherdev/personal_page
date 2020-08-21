@@ -11,7 +11,7 @@ class Whoami extends React.Component {
                 </div>
                 <div className="row">
                     <div className="text">
-                        I'm a <span>Fullstack Developer</span>. I love <span>javascript/Angular/React/Node/Pyrhon/PHP </span>😃 . I'm from 🇦🇷. I'm studying at UTN.
+                        I'm a <span>Fullstack Developer</span>. I love <span>javascript/Angular/React/Node/Python/PHP </span>😃 . I'm from 🇦🇷. I'm studying at UTN.
                         I'm a <span>geek</span> of 8 and 16bit 👾. I love <span>traveling</span> 🏝✈ and <span>meeting</span> new <span>people</span> and their customs.
                     </div>
                 </div>

@@ -17,12 +17,10 @@ class Nav extends React.Component {
                         />
                         <span>
                             <Link id="RouterNavLink" to="/">Home</Link>
-                            {/* <NavLink to="/"/> */}
                         </span>
                         <span>/</span>
                         <span>
                             <Link id="RouterNavLink" to="/projects">Projects</Link>
-                            {/* <NavLink to="/projects"/> */}
                         </span>
                     </div>
                 </div>
