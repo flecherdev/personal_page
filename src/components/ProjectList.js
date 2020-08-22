@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import Projects from '../page/Projects';
 
 class ProjectList extends React.Component {
     render() {
