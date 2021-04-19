@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 description: "Es una web app que filtra autos segun caterioas. Se utilizo Angular 9 y Angular Material",
                 image: "https://firebasestorage.googleapis.com/v0/b/ezequielfreiredev.appspot.com/o/carscrash.png?alt=media&token=e283bbea-8af3-44a2-bd04-f4f38371b3c7",
                 github: "https://github.com/flecherdev/filter-car",
-                link: "https://comandautn.web.app/"
+                link: "https://fir-crud-b03d8.web.app/cars"
             },
             {
                 id: "3",
