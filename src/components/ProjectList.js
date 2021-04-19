@@ -18,7 +18,9 @@ class ProjectList extends React.Component {
                             </div>
                             <div className="card-footer">
                                 <a to="chart" target="_blank" href={project.github} className="Projects__Card__Fotter__Button btn btn-warning ">Code</a>
-                                <a to="chart" target="_blank" href={project.link} className="Projects__Card__Fotter__Button btn btn-warning ">Link</a>
+                                { (project.link) &&
+                                    <a to="chart" target="_blank" href={project.link} className="Projects__Card__Fotter__Button btn btn-warning ">Link</a>
+                                }
                             </div>
                         </div>
                     )
