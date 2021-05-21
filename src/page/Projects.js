@@ -26,10 +26,10 @@ class Projects extends React.Component {
             {
                 id: "3",
                 title: "Tienda de compras",
-                description: "Tienda de compras es un proyecto realizado en el curso de Angular en Platzi.",
+                description: "Tienda de compras es un proyecto realizado en el curso de Angular en Platzi. SPA realizada en angular 11 e preparada para PWA",
                 image: "https://firebasestorage.googleapis.com/v0/b/ezequielfreiredev.appspot.com/o/platzi-store.png?alt=media&token=3af875e5-b56b-4391-ae06-72c2cf31213f",
                 github: "https://github.com/flecherdev/platzi-store",
-                link: ""
+                link: "https://platzi-store-17311.web.app"
             }
         ]
     }
